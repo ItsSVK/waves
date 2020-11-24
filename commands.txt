@@ -1,0 +1,9 @@
+//npm i node-sass  [Incompatable 5.0.0]
+npm install node-sass@4.14.1
+
+Font Awesome React
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+
+npm i uuid
