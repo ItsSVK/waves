@@ -5,7 +5,7 @@ const LibrarySong = ({
   songs,
   setSongs,
   setCurrentSong,
-  isPlaying,
+  setIsPlaying,
   audioRef
 }) => {
   const songSelectHandler = async () => {
@@ -18,9 +18,8 @@ const LibrarySong = ({
       }
     })
     setSongs(songsList)
-    if (isPlaying) {
-      audioRef.current.play()
-    }
+    audioRef.current.play()
+    setIsPlaying(true)
   }
 
   return (

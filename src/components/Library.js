@@ -6,7 +6,7 @@ export default function Library({
   setSongs,
   libraryStatus,
   setCurrentSong,
-  isPlaying,
+  setIsPlaying,
   audioRef
 }) {
   return (
@@ -21,7 +21,7 @@ export default function Library({
             songs={songs}
             setCurrentSong={setCurrentSong}
             audioRef={audioRef}
-            isPlaying={isPlaying}
+            setIsPlaying={setIsPlaying}
           />
         ))}
       </div>
