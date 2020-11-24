@@ -1,12 +1,14 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Trying out React along with SASS
 
 ## Porject Details
 
-This is a Simple React Music Player App. Without any State Management tool. All the musics are taken from @[ChillHop](https://chillhop.com/).
+This is a Simple React Music Player without using any State Management tool. All the musics are taken from @[ChillHop](https://chillhop.com/).
 
 All the Required packages are mentioned in [commands](https://github.com/ItsSVK/waves/blob/master/commands.txt) file.
+
+### DEMO
+
+Head over to [Waves Demo](https://itssvk.github.io/waves/)
 
 ## Available Scripts
 
